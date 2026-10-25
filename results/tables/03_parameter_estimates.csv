@@ -1,7 +1,6 @@
-Distribution,Parameter,Estimate,Std_Error
-Exponential,rate (lambda),0.029212,5.78e-4
-Exponential,mean = 1/lambda,34.233,NA
-Weibull,shape (k),1.1839,0.0133
-Weibull,scale (lambda),36.9168,0.6565
-Lognormal,meanlog (mu),3.2994,0.0107
-Lognormal,sdlog (sigma),0.5401,0.0076
+"Distribution","Parameter","Estimate"
+"Normal","mean (minutes)",34.2330325617889
+"Normal","standard deviation (minutes)",54.2872526483094
+"Exponential","rate (per minute)",0.0292115516846207
+"Weibull","shape",1.18416277517385
+"Weibull","scale (minutes)",36.9121183854517

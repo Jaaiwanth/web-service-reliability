@@ -1,0 +1,4 @@
+"Distribution","Chi_square","Degrees_freedom","P_value","Minimum_expected","Decision"
+"Normal (conditional on positive duration)",4867.34744199298,3,0,197.685767069262,"Reject H0 at 5%"
+"Exponential",731.791005004425,4,4.55139678258604e-157,76.5596520414809,"Reject H0 at 5%"
+"Weibull",1137.60491880777,3,2.52666485789889e-246,44.887464161235,"Reject H0 at 5%"

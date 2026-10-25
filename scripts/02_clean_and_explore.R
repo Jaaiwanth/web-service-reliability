@@ -142,7 +142,7 @@ cat(sprintf("  * The LONGEST outage lasted %.0f minutes (~%.1f hours).\n",
 cat(sprintf("  * Skewness = %.2f: the distribution is strongly RIGHT-SKEWED --\n", skewness(x)))
 cat("    most outages are short, but a few very long ones pull the mean up.\n")
 cat("    This pattern is typical of failure-time data and motivates\n")
-cat("    Exponential, Weibull, and Log-normal distribution fits.\n\n")
+cat("    Normal, Exponential, and Weibull distribution fits.\n\n")
 
 # Note about discrete granularity
 cat("  [NOTE] Durations are multiples of 20 minutes (user-report polling\n")
@@ -250,6 +250,7 @@ cat("Plot saved: results/plots/02c_ecdf.png\n")
 
 # -- 9. PLOT 4: Log-scale histogram (reveals tail structure) -------------------
 
+if (FALSE) { # retained code only; this non-syllabus exploratory figure is not generated
 png(file.path(plot_dir, "02d_log_histogram.png"), width = 900, height = 550, res = 110)
 
 # log10 transform of durations
@@ -285,6 +286,7 @@ legend("topright",
 
 dev.off()
 cat("Plot saved: results/plots/02d_log_histogram.png\n\n")
+}
 
 # -- 10. Observations about extreme values ------------------------------------
 
@@ -332,7 +334,6 @@ cat("  Plots saved:\n")
 cat("    results/plots/02a_histogram.png\n")
 cat("    results/plots/02b_boxplot.png\n")
 cat("    results/plots/02c_ecdf.png\n")
-cat("    results/plots/02d_log_histogram.png\n")
 cat("  Tables saved:\n")
 cat("    results/tables/02_descriptive_statistics.csv\n")
 cat("    results/tables/02_outliers.csv\n")

@@ -1,0 +1,19 @@
+"Distribution","Class","Observed","Expected"
+"Normal (conditional on positive duration)","(0, 20]",1785,458.767889565174
+"Normal (conditional on positive duration)","(20, 40]",444,504.74179207668
+"Normal (conditional on positive duration)","(40, 60]",161,485.583434386652
+"Normal (conditional on positive duration)","(60, 80]",55,408.485321203362
+"Normal (conditional on positive duration)","(80, 120]",50,493.73579569887
+"Normal (conditional on positive duration)","> 120",54,197.685767069262
+"Exponential","(0, 20]",1785,1127.84475780506
+"Exponential","(20, 40]",444,628.812275377303
+"Exponential","(40, 60]",161,350.584488626512
+"Exponential","(60, 80]",55,195.462920299646
+"Exponential","(80, 120]",50,169.735905849994
+"Exponential","> 120",54,76.5596520414809
+"Weibull","(0, 20]",1785,978.022501248577
+"Weibull","(20, 40]",444,722.325695635246
+"Weibull","(40, 60]",161,417.766123123632
+"Weibull","(60, 80]",55,221.464465305266
+"Weibull","(80, 120]",50,164.533750526043
+"Weibull","> 120",54,44.887464161235
