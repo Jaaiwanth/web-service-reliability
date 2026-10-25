@@ -1,0 +1,4 @@
+Distribution,Parameters,LogLik,AIC,BIC,AIC_rank
+Lognormal,2,-10456.72,20917.45,20929.13,1
+Weibull,2,-11461.4,22926.8,22938.48,2
+Exponential,1,-11555.1,23112.21,23118.05,3
