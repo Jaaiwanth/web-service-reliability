@@ -1,0 +1,12 @@
+Check,Value
+Total rows,2549
+Total columns,5
+Missing values (total),0
+Duplicate rows,0
+Invalid/zero/negative durations,0
+Valid positive durations,2549
+Observation span (days),557.2
+Min duration (min),20
+Max duration (min),1820
+Median duration (min),20
+Mean duration (min),34.23
